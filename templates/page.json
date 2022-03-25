@@ -2,8 +2,11 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {
-      }
+      "settings": {}
+    },
+    "product-list-example": {
+      "type": "product-list-example",
+      "settings": {}
     },
     "newsletter": {
       "type": "newsletter",
@@ -22,8 +25,7 @@
         },
         "newsletter-2": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -40,6 +42,7 @@
   },
   "order": [
     "main",
+    "product-list-example",
     "newsletter"
   ]
 }
