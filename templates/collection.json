@@ -3,12 +3,22 @@
     "main-collection-banner": {
       "type": "main-collection-banner",
       "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
       }
     },
     "main-collection-product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
+        "products_per_page": 16,
         "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false,
         "padding_top": 20,
         "padding_bottom": 68
       }
@@ -41,6 +51,7 @@
       ],
       "settings": {
         "color_scheme": "accent-1",
+        "full_width": true,
         "padding_top": 64,
         "padding_bottom": 52
       }
