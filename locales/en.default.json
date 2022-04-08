@@ -109,6 +109,7 @@
       "description": "Description",
       "on_sale": "Sale",
       "product_variants": "Product variants",
+      "pdf_file": "Download PDF",
       "media": {
         "gallery_viewer": "Gallery Viewer",
         "load_image": "Load image {{ index }} in gallery view",
@@ -199,7 +200,8 @@
       "search_for": "Search for “{{ terms }}”"
     },
     "cart": {
-      "cart": "Cart"
+      "cart": "Cart",
+      "gift_wrap": "I would like my purchase gift wrapped"
     },
     "contact": {
       "form": {
@@ -390,7 +392,8 @@
       "last_name": "Last name",
       "email": "Email",
       "password": "Password",
-      "submit": "Create"
+      "submit": "Create",
+      "email_consent": "Subscribe to email marketing. You can unsubscribe at any time!"
     },
     "reset_password": {
       "title": "Reset account password",
