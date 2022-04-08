@@ -59,7 +59,7 @@
         "newsletter-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Subscribe to our mailing list for insider news, product launches, and more.<\/p>"
+            "text": "<p>Subscribe to our mailing list for insider news, product launches, and more. You can unsubscribe at any time!<\/p>"
           }
         },
         "newsletter-2": {
