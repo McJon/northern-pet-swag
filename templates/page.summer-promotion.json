@@ -1,14 +1,125 @@
 {
   "sections": {
+    "16499476585776125d": {
+      "type": "image-banner",
+      "blocks": {
+        "16499476580eb00eee-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "16499476580eb00eee-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16499476580eb00eee-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16499476580eb00eee-0",
+        "16499476580eb00eee-1",
+        "16499476580eb00eee-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1649947833cde60a79": {
+      "type": "featured-text",
+      "settings": {
+        "section_title": "Talk about your brand",
+        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+      }
+    },
+    "164994822384362c72": {
+      "type": "product-list-example",
+      "settings": {
+        "heading": "Product List Example",
+        "collection": "summer-collection"
+      }
+    },
+    "1649948392950c9151": {
+      "type": "featured-blogs",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_author": true,
+        "blog_show_date": true,
+        "show_view_all": true
+      }
+    },
+    "1649948402e832f462": {
+      "type": "newsletter",
+      "blocks": {
+        "1649948401f659937e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails"
+          }
+        },
+        "1649948401f659937e-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers. You can unsubscribe at any time!<\/p>"
+          }
+        },
+        "1649948401f659937e-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1649948401f659937e-0",
+        "1649948401f659937e-1",
+        "1649948401f659937e-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "16499476585776125d",
+    "main",
+    "1649947833cde60a79",
+    "164994822384362c72",
+    "1649948392950c9151",
+    "1649948402e832f462"
   ]
 }
